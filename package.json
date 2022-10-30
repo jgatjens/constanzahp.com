@@ -1,11 +1,10 @@
 {
   "private": true,
-  "name": "emma",
-  "description": "Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images",
+  "name": "koko",
+  "description": "Consultas presenciales y online",
   "version": "0.3.12",
-  "author": "LekoArts",
+  "author": "jgatjens",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-emma",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
