@@ -1,13 +1,12 @@
 /** @jsx jsx */
-import { Box, Link, Flex, jsx, useColorMode } from "theme-ui";
+import { Box, Flex, jsx, useColorMode } from "theme-ui";
 import Logo from "./logo";
 
 const Footer = () => {
   const [colorMode] = useColorMode();
-  // const isDark = colorMode === `dark`;
 
   return (
-    <Box as="footer" variant="layout.footer">
+    <Box sx={{ padding: 4 }} as="footer" variant="layout.footer">
       Copyright constanzahp.com &copy; {new Date().getFullYear()}. Todos los
       derechos reservados.
       <br />
