@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <Box sx={{ padding: 4 }} as="footer" variant="layout.footer">
-      Copyright constanzahp.com &copy; {new Date().getFullYear()}.<br /> Todos
-      los derechos reservados.
+      Copyright &copy; {new Date().getFullYear()} constanzahp.com
+      <br /> Todos los derechos reservados.
       <br />
       <Flex
         sx={{
