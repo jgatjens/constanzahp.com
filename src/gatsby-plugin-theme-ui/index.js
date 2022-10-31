@@ -3,7 +3,7 @@ import { tailwind } from "@theme-ui/presets";
 
 const primary = "#AF5454";
 const purple = "#3F3356";
-const orange = "#E2AFA4";
+// const orange = "#E2AFA4";
 
 export default merge(tailwind, {
   config: {
@@ -17,8 +17,8 @@ export default merge(tailwind, {
     modes: {
       dark: {
         text: tailwind.colors.white,
-        primary: orange,
-        // primary: tailwind.colors.pink[4],
+        // primary: orange,
+        primary: tailwind.colors.pink[4],
         background: purple,
         // background: tailwind.colors.gray[8],
         textMuted: tailwind.colors.gray[5],

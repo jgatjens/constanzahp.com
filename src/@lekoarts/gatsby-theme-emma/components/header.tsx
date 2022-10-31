@@ -99,7 +99,7 @@ const Header = ({ meta, nav }: HeaderProps) => {
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 strokeWidth="32"
                 d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"
               />
@@ -110,7 +110,7 @@ const Header = ({ meta, nav }: HeaderProps) => {
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 strokeWidth="32"
               />
             </svg>
