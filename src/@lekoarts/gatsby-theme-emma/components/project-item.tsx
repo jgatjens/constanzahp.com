@@ -81,7 +81,16 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => (
           alt=""
         />
       </div>
-      <a aria-label={`${node.title}`}>
+      <a
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+          gap: 3,
+        }}
+        aria-label={`${node.title}`}
+      >
         <div
           sx={{
             backgroundColor: node.color,
@@ -93,8 +102,17 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => (
             zIndex: -2,
           }}
         />
-        <div sx={{ fontSize: 5, fontWeight: `bold` }}>{node.client}</div>
-        <div sx={{ fontSize: 2 }}>{node.service}</div>
+        <div
+          sx={{
+            fontSize: 5,
+            lineHeight: 1,
+            fontWeight: `bold`,
+            textAlign: "center",
+          }}
+        >
+          {node.client}
+        </div>
+        <div sx={{ fontSize: 2, textAlign: "center" }}>{node.service}</div>
       </a>
     </div>
   </animated.div>

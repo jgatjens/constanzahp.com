@@ -21,19 +21,19 @@ const Navigation = ({ nav }: NavigationProps) => (
     }}
     aria-label="Primary Navigation"
   >
-    {nav.map((n) => (
-      <Link
-        sx={(t) => ({
-          ...t.styles?.a,
-          color: `text`,
-          ":hover": { color: `primary`, textDecoration: `none` },
-        })}
-        key={n.slug}
-        to={n.slug}
-      >
-        {n.title}
-      </Link>
-    ))}
+    {/* {nav.map((n) => ( */}
+    <Link
+      sx={(t) => ({
+        ...t.styles?.a,
+        color: `text`,
+        ":hover": { color: `primary`, textDecoration: `none` },
+      })}
+      key={"about"}
+      to={"/about"}
+    >
+      Acerca de
+    </Link>
+    {/* ))} */}
   </Flex>
 );
 
