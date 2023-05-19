@@ -23,7 +23,7 @@ const SocialLinks = () => (
       </svg>
     </a>
     <a
-      href="https://wa.me/5493584403876?text=Hola,%20me%20gustaría%20saber%20más"
+      href="https://wa.me/5493584403876?text=Hola,%20me%20gustaría%20saber%20más 💜"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Dribbble"
