@@ -3,7 +3,7 @@ import * as React from "react";
 const SocialLinks = () => (
   <>
     <a
-      href="https://www.instagram.com/constanzahumanopuente/"
+      href="mailto:cotidelgrecco@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Mail"
