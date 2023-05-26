@@ -2,12 +2,7 @@ import * as React from "react";
 
 const SocialLinks = () => (
   <>
-    <a
-      href="mailto:cotidelgrecco@gmail.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Mail"
-    >
+    <a href="mailto:cotidelgrecco@gmail.com" target="_blank" aria-label="Mail">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="ionicon"
