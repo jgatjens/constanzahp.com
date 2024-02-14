@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Link } from "gatsby";
 import { animated } from "react-spring";
 import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image";
 
