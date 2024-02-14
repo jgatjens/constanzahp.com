@@ -1,7 +1,17 @@
 import * as React from "react";
 
+import "./style.css";
+
 const SocialLinks = () => (
   <>
+    <a
+      href="https://cal.com/constanza-humano-puente"
+      className="btn--agendar"
+      target="_blank"
+      aria-label="Mail"
+    >
+      Agendar
+    </a>
     <a href="mailto:cotidelgrecco@gmail.com" target="_blank" aria-label="Mail">
       <svg
         xmlns="http://www.w3.org/2000/svg"

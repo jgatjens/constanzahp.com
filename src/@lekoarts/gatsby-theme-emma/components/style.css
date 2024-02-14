@@ -1,0 +1,19 @@
+div a.btn--agendar {
+  font-size: 14px;
+  /* border: 2px solid #e1d3d0; */
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  /* color: #2d3748; */
+  color: white;
+  font-weight: bold;
+
+  background-color: #e2afa4;
+}
+
+div a.btn--agendar:hover {
+  background-color: #af5454;
+  color: white;
+}
