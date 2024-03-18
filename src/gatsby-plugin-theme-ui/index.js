@@ -7,7 +7,7 @@ const purple = "#3F3356";
 
 export default merge(tailwind, {
   config: {
-    initialColorModeName: `light`,
+    initialColorModeName: `dark`,
     useColorSchemeMediaQuery: `system`,
   },
   colors: {
