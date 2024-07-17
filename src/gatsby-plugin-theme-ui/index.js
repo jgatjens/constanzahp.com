@@ -3,7 +3,6 @@ import { tailwind } from "@theme-ui/presets";
 
 const primary = "#AF5454";
 const purple = "#3F3356";
-// const orange = "#E2AFA4";
 
 export default merge(tailwind, {
   config: {

@@ -22,7 +22,8 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-emma`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
