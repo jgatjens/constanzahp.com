@@ -11,10 +11,10 @@ type ProjectInfoProps = {
 };
 
 const ProjectInfo = ({ project }: ProjectInfoProps) => (
-  <Flex sx={{ mt: 4, mb: [2, 4], flexWrap: `wrap`, maxWidth: "820px" }}>
-    <Item name="Sintoma" content={project.client} />
+  <Flex sx={{ mt: 4, flexWrap: `wrap`, maxWidth: "820px" }}>
+    {/* <Item name="Sintoma" content={project.client} /> */}
     <Item name="Fecha" content={project.date} />
-    <Item name="Servicio" content={project.service} />
+    {/* <Item name="Camino" content={project.service} /> */}
   </Flex>
 );
 
