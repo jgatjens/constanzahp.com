@@ -23,7 +23,6 @@ type ProjectItemProps = {
 
 const ProjectItem = ({ node, style, eager }: ProjectItemProps) => {
   console.log(node);
-
   return (
     <animated.div
       sx={{
@@ -85,8 +84,7 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => {
           />
         </div>
         <a
-          data-name={`${node.activePage}`}
-          href={node.slug === "/la-bioexistencia-consciente" ? node.slug : "#"}
+          href={node.title !== "no" ? node.slug : "#"}
           sx={{
             display: "flex",
             alignItems: "center",
