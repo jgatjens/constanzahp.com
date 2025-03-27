@@ -29,7 +29,7 @@ const Navigation = ({ nav }: NavigationProps) => (
         ":hover": { color: `primary`, textDecoration: `none` },
       })}
       key={"about"}
-      to={"/constanza-del-grecco"}
+      to={"/acerca-de"}
     >
       Constanza
     </Link>
