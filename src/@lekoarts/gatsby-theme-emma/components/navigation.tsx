@@ -29,9 +29,9 @@ const Navigation = ({ nav }: NavigationProps) => (
         ":hover": { color: `primary`, textDecoration: `none` },
       })}
       key={"about"}
-      to={"/about"}
+      to={"/constanza-del-grecco"}
     >
-      Acerca de
+      Constanza
     </Link>
     {/* ))} */}
   </Flex>

@@ -17,3 +17,40 @@ div a.btn--agendar:hover {
   background-color: #af5454;
   color: white;
 }
+
+.koko-image {
+  position: absolute;
+  top: 140px;
+  right: 400px;
+  width: 180px;
+  display: block;
+  border-radius: 999px;
+  box-shadow: 0 0 0 4px #e2afa4;
+}
+
+.koko-image img {
+  border-radius: 999px;
+  background-size: cover;
+  height: 180px;
+  display: block;
+  /* filter: grayscale(100%); */
+}
+
+/* match a class with  */
+/* 
+[class*="-Hero"] {
+  height: 38vh !important;
+} */
+
+@media screen and (max-width: 768px) {
+  .koko-image {
+    top: 50px;
+    right: 50%;
+    width: 130px;
+    margin-right: -65px;
+  }
+
+  .koko-image img {
+    height: 60px;
+  }
+}
