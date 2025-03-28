@@ -64,7 +64,8 @@ const Header = ({ meta, nav }: HeaderProps) => {
           })}
           to="/"
         >
-          <SvgIcon />
+          {/* <SvgIcon /> */}
+          Inicio
         </Link>
       </Flex>
       <div
